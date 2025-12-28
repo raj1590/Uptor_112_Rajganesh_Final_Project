@@ -1,0 +1,80 @@
+# Diabetes Prediction Using Machine Learning
+
+## Project Overview
+This project focuses on predicting whether a person has diabetes based on medical and lifestyle-related features using machine learning techniques. The project follows a complete data science lifecycle from data preprocessing to model evaluation and prediction.
+
+---
+
+## Dataset
+**File Name:** diabetes_prediction_dataset.csv
+
+### Features:
+- gender
+- age
+- bmi
+- hypertension
+- heart_disease
+- smoking_history
+- HbA1c_level
+- blood_glucose_level
+
+### Target Variable:
+- diabetes (0 = No Diabetes, 1 = Diabetes)
+
+---
+
+## Technologies Used
+- Python 3.12
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+
+---
+
+## Project Workflow
+1. Data Loading
+2. Data Cleaning & Understanding
+3. Exploratory Data Analysis (EDA)
+4. Encoding Categorical Variables
+5. Feature Scaling
+6. Train-Test Split
+7. Model Training
+8. Model Evaluation
+9. Best Model Selection
+10. Sample Prediction
+11. Model Saving
+
+---
+
+## Machine Learning Models
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+The best model is selected based on accuracy.
+
+---
+
+## Evaluation Metrics
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+
+---
+
+## Saved Files
+- `diabetes_model.pkl` – Trained machine learning model
+- `scaler.pkl` – StandardScaler used for feature scaling
+- `label_encoders.pkl` – Encoders for categorical variables
+- `feature_order.pkl` – Feature order used during training
+
+---
+
+## How to Run the Project
+
+1. Install dependencies:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn joblib
